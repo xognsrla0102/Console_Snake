@@ -10,7 +10,7 @@
 
 typedef enum { DIR_LEFT, DIR_UP, DIR_RIGHT, DIR_DOWN, DIR_STAY, DIR_NUMS } direction_t;
 
-#define MAX_BODY_COUNT (5)
+#define MAX_BODY_COUNT (30)
 #define MAP_HEIGHT (35)
 #define MAP_WIDTH (45)
 
