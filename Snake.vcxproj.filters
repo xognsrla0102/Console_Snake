@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="0main">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="1scene">
+      <UniqueIdentifier>{f0d9bfba-e07e-4e0c-b963-497d27a6d0b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2managers">
+      <UniqueIdentifier>{4519f236-e7db-4880-a21f-65f45642ea82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2managers\scene_manager">
+      <UniqueIdentifier>{ba5b7b83-30a3-47f9-bbf1-124cfb7d2368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2managers\sound_manager">
+      <UniqueIdentifier>{e709daba-808e-4cd7-98be-af5de97c1ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2managers\game_manager">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="1scene\0loading">
+      <UniqueIdentifier>{dbfda1d0-484b-466d-9d57-53bd27be4966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1scene\1main">
+      <UniqueIdentifier>{a3c5a099-8c3f-4683-9ece-dbb720d97e63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1scene\2ingame">
+      <UniqueIdentifier>{c1772090-88ca-409a-b3b6-42dbd0764bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1scene\3ranking">
+      <UniqueIdentifier>{157f53a2-de5c-4b24-89bb-73656fdbf38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3utility">
+      <UniqueIdentifier>{566fdb54-c533-46d1-a410-209a526ea270}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game_manager.c">
+      <Filter>2managers\game_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>0main</Filter>
+    </ClCompile>
+    <ClCompile Include="sound_manager.c">
+      <Filter>2managers\sound_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_manager.c">
+      <Filter>2managers\scene_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ingame_scene.c">
+      <Filter>1scene\2ingame</Filter>
+    </ClCompile>
+    <ClCompile Include="loading_scene.c">
+      <Filter>1scene\0loading</Filter>
+    </ClCompile>
+    <ClCompile Include="main_scene.c">
+      <Filter>1scene\1main</Filter>
+    </ClCompile>
+    <ClCompile Include="ranking_scene.c">
+      <Filter>1scene\3ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.c">
+      <Filter>3utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="game_manager.h">
+      <Filter>2managers\game_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="sound_manager.h">
+      <Filter>2managers\sound_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>2managers\scene_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ingame_scene.h">
+      <Filter>1scene\2ingame</Filter>
+    </ClInclude>
+    <ClInclude Include="loading_scene.h">
+      <Filter>1scene\0loading</Filter>
+    </ClInclude>
+    <ClInclude Include="main_scene.h">
+      <Filter>1scene\1main</Filter>
+    </ClInclude>
+    <ClInclude Include="ranking_scene.h">
+      <Filter>1scene\3ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>3utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
